@@ -9,3 +9,4 @@ const stringToNumber = function (str) {
 const stringToNumber = str => Number(str)
 
 // Solution 3
+let stringToNumber = Number;
