@@ -6,4 +6,6 @@ const stringToNumber = function (str) {
 }
 
 // Solution 2
+const stringToNumber = str => Number(str)
+
 // Solution 3
