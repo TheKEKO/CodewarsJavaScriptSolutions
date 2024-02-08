@@ -15,3 +15,4 @@ function repeatStr(n, s) {
 }
 
 // Solution 3
+repeatStr = (n, s) => s.repeat(n)
