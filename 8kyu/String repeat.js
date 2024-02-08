@@ -13,3 +13,5 @@ function repeatStr(n, s) {
   }
   return str
 }
+
+// Solution 3
