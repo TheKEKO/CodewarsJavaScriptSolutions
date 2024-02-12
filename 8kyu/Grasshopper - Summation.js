@@ -8,3 +8,8 @@ const summation = function (num) {
   }
   return result
 }
+
+// Solution 2
+function summation(num) {
+  return (num * (num + 1)) / 2
+}
