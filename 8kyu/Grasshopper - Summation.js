@@ -13,3 +13,6 @@ const summation = function (num) {
 function summation(num) {
   return (num * (num + 1)) / 2
 }
+
+// Solution 3
+const summation = (n) => (n * (n + 1)) / 2
