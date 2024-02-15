@@ -1,6 +1,6 @@
 // Multiply the number
 
-//Solution
+// Solution
 function multiply(number) {
   const absoluteValue = Math.abs(number)
   const power = Math.floor(Math.log10(absoluteValue)) + 1
@@ -10,4 +10,11 @@ function multiply(number) {
   } else {
     return number * Math.pow(5, power)
   }
+}
+
+// Solution 2
+function multiply(number) {
+  const absoluteValue = Math.abs(number)
+  const power = Math.floor(Math.log10(absoluteValue)) + 1
+  return (number < 0 ? -1 : 1) * Math.pow(5, power) * Math.abs(number)
 }
