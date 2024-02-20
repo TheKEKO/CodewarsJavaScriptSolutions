@@ -9,3 +9,6 @@ function toCsvText(array) {
 function toCsvText(array) {
   return array.join("\n")
 }
+
+// Solution 3
+const toCsvText = (array) => array.join("\n")
