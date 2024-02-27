@@ -8,3 +8,6 @@ function grow(x) {
   })
   return result
 }
+
+// Solution 2
+const grow = (x) => x.reduce((a, b) => a * b)
