@@ -7,3 +7,8 @@ function makeNegative(num) {
 
 // Solution 2
 makeNegative = (num) => (num > 0 ? -num : num)
+
+// Solution 3
+function makeNegative(num) {
+  return -Math.abs(num)
+}
