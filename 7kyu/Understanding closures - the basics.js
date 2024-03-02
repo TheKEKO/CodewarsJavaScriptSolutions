@@ -21,3 +21,6 @@ function buildFun(n) {
   }
   return res
 }
+
+// Solution 3
+const buildFun = (n) => [...Array(n)].map((_, i) => () => i)
