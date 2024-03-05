@@ -11,9 +11,10 @@ function strCount(str, letter) {
   return count
 }
 
-console.log(strCount("", "z"))
-
 // Solution 2
 function strCount(str, letter) {
   return str.split(letter).length - 1
 }
+console.log(strCount("hello", "o"))
+
+// Solution 3
