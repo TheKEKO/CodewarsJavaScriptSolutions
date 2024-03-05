@@ -12,3 +12,8 @@ function strCount(str, letter) {
 }
 
 console.log(strCount("", "z"))
+
+// Solution 2
+function strCount(str, letter) {
+  return str.split(letter).length - 1
+}
